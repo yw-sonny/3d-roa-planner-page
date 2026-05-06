@@ -395,19 +395,28 @@
   <div class="container is-max-desktop">
     <div class="columns is-centered has-text-centered">
       <div class="column is-four-fifths">
-        <h2 class="title is-3">Abstract</h2>
+        <h2 class="title is-3">Quantitative Comparisons</h2>
         <div class="item">
-          <img src="./static/images/representation.png" alt="3D Rotatable Area Concept" style="width:100%; height:auto; border-radius:10px; box-shadow: 0 4px 8px rgba(0,0,0,0.1); margin-bottom: 20px;"/>
+          <img src="./static/images/dense_environments_raw.png" alt="Confined space" style="width:100%; height:auto; border-radius:10px; box-shadow: 0 4px 8px rgba(0,0,0,0.1); margin-bottom: 20px;"/>
           <p class="subtitle has-text-centered is-size-6" style="margin-bottom: 30px;">
             3D environment represented by 3D RoAs and the resulting path.
           </p>
         </div>
-        <div class="content has-text-justified">
-          <!-- TODO: Replace with your paper abstract -->
-          <p>
-            Quadruped robots exhibit superior terrain adaptability and mobility, enabling autonomous navigation in complex environments. However, path planning for quadruped robots is inherently challenging due to the non-circular and high-dimensional nature of their collision model, which introduces a trade-off between collision detection accuracy and planning robustness. To overcome this challenge, we propose the concept of a <strong>3D Rotatable Area (3D RoA)</strong>. The 3D RoA represents the range of collision-free and stable yaw angles at a given position, explicitly capturing local terrain geometry and collision constraints. Based on the 3D RoA, we further present a path planning framework that efficiently recognizes and navigates highly cluttered environments. Our approach generates traversable and collision-free SE(3) paths through 2D search, reducing the search space while accurately handling the collision geometry of the quadruped robot. The effectiveness of the proposed framework is validated through extensive simulations and real-world experiments using multiple platforms. 
+
+        <div class="item">
+          <img src="./static/images/narrow_environments_raw.png" alt="Narrow space" style="width:100%; height:auto; border-radius:10px; box-shadow: 0 4px 8px rgba(0,0,0,0.1); margin-bottom: 20px;"/>
+          <p class="subtitle has-text-centered is-size-6" style="margin-bottom: 30px;">
+            3D environment represented by 3D RoAs and the resulting path.
           </p>
         </div>
+
+        <div class="item">
+          <img src="./static/images/representation.png" alt="RoA-Aware Quadtree" style="width:100%; height:auto; border-radius:10px; box-shadow: 0 4px 8px rgba(0,0,0,0.1); margin-bottom: 20px;"/>
+          <p class="subtitle has-text-centered is-size-6" style="margin-bottom: 30px;">
+            3D environment represented by 3D RoAs and the resulting path.
+          </p>
+        </div>
+        
       </div>
     </div>
   </div>
