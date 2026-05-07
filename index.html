@@ -510,7 +510,7 @@
     </div>
   </div>
 </section> -->
-<section class="section hero is-light">
+<!-- <section class="section hero is-light">
   <div class="container is-max-desktop">
     <h2 class="title is-3 has-text-centered mb-6">Quantitative Comparisons</h2>
     
@@ -550,7 +550,47 @@
         </div>
       </div>
       
-    </div> </div>
+    </div> </div> -->
+    <section class="hero is-light">
+  <div class="hero-body">
+    <div class="container">
+      <h2 class="title is-3 has-text-centered">Quantitative Comparisons</h2>
+      
+      <div id="results-carousel" class="carousel results-carousel">
+        
+        <div class="item">
+          <div class="box" style="padding: 2rem; border-radius: 20px; margin: 10px; height: 100%;">
+            <img src="./static/images/dense_environments_raw.png" alt="Dense Environments" 
+                 style="width:100%; height:auto; border-radius:10px; margin-bottom: 20px;"/>
+            <div class="content has-text-justified">
+              <h3 class="title is-5 has-text-centered">Dense Environments</h3>
+              <p class="is-size-6">
+                Comparisons using AiDIN-VIII in $10 \times 10$ m$^2$ stairs and rough terrains. 
+                <em>C</em>, <em>T</em>, <em>L</em>, and <em>R</em> represent collisions, time (s), length (m), and rotation ($^\circ$). 
+                First row: ours (green), Wellhausen (orange), Art-Planner (red), TRG-Planner (yellow).
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="item">
+          <div class="box" style="padding: 2rem; border-radius: 20px; margin: 10px; height: 100%;">
+            <img src="./static/images/narrow_environments_raw.png" alt="Narrow Spaces" 
+                 style="width:100%; height:auto; border-radius:10px; margin-bottom: 20px;"/>
+            <div class="content has-text-justified">
+              <h3 class="title is-5 has-text-centered">Narrow Spaces</h3>
+              <p class="is-size-6">
+                Robustness comparison in $10 \times 10$ m$^2$ narrow spaces. 
+                <em>S</em> denotes planning success rate. Our method is deterministic (10/10 success). 
+                Zoomed-in circles highlight subdivided RoAs due to detecting cliffs or obstacles.
+              </p>
+            </div>
+          </div>
+        </div>
+
+      </div> </div>
+  </div>
+</section>
 <!-- End Quantitative Comparisons -->
     
     
